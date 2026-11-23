@@ -203,6 +203,8 @@ input[aria-invalid=true],textarea[aria-invalid=true]{border-color:#c62828}
 .unit.sold{border-left-color:#9aa5b8}
 .unit.free{border-left-color:#1b9e4b}
 .unit.stage2{border-left-color:var(--amber)}
+.unit.reserved{border-left-color:#e07b00}
+.reserved .badge{background:#ffe8cc;color:#8a4300}
 .badge{display:inline-block;font:600 .75rem var(--sans);padding:4px 12px;border-radius:999px;background:var(--alt);color:var(--ink)}
 .sold .badge{background:#e6eaf1;color:#3b475c}.free .badge{background:#dcf5e5;color:#0f6a31}.stage2 .badge{background:#fff1cc;color:#7a5200}
 .dl{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 16px;border-radius:999px;border:1.5px solid var(--blue);color:var(--blue-d);font:600 .85rem var(--sans);text-decoration:none;transition:background .25s,color .25s}
